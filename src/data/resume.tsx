@@ -129,7 +129,6 @@ export const DATA = {
         "TypeScript",
         "NextAuth",
         "Stripe",
-        ,
       ],
       links: [
         {

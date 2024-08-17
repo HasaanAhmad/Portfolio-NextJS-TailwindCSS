@@ -11,8 +11,8 @@ export const DATA = {
   description:
     "Full Stack Web Developer (Currently using NEXTJS) and Digital Creator on Instagram. I build things for the web and make stuff for social media. You can check it out on instagram @hasaandotdev. ",
   summary:
-    "My tech journey started when I was just 4—yep, I had a computer at that age, which was a big deal in my hometown! Fast forward to 2020, the year of Corona, while I was prepping for pre-engineering exams, I stumbled upon Python, and the rest is history. Now, I’m pursuing a BS in Software Engineering at [COMSATS Islamabad](https://www.comsats.edu.pk/), crafting websites with ReactJS, and leveling up to Next.js as a full-stack dev. Oh, and did I mention I’ve started sharing my tech musings on Instagram? You can find me at [@hasaandotdev💻✨](https:www.instagram.com/hasaandotdev).",
-  avatarUrl: "/me.png",
+    "My tech journey started when I was just 4—yep, I had a computer at that age, which was a big deal in my hometown! Fast forward to 2020, the year of Corona, while I was prepping for pre-engineering exams, I stumbled upon Python, and the rest is history. Now, I'm pursuing a BS in Software Engineering at [COMSATS Islamabad](https://www.comsats.edu.pk/), crafting websites with ReactJS, and leveling up to Next.js as a full-stack dev. Oh, and did I mention I've started sharing my tech musings on Instagram? You can find me at [@hasaandotdev💻✨](https:www.instagram.com/hasaandotdev).",
+  avatarUrl: "/mine.png",
   skills: [
     "React",
     "NextJS",

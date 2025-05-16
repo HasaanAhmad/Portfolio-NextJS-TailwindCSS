@@ -1,30 +1,40 @@
 import { Icons } from "@/components/icons";
 import { url } from "inspector";
-import { HomeIcon } from "lucide-react";
+import { HomeIcon, Twitter } from "lucide-react";
 
 export const DATA = {
   name: "Hasaan Ahmad",
   initials: "HA",
-  url: "https://hasaanahmad.me",
+  url: "https://hasaanahmad.vercel.app",
   location: "ISLAMABAD, PAKISTAN",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  locationLink: "https://www.google.com/maps/place/Islamabad",
   description:
-    "Full Stack Web Developer (Currently using NEXTJS) and Digital Creator on Instagram. I build things for the web and make stuff for social media. You can check it out on instagram @hasaandotdev. ",
+    "Full Stack Software Engineer specializing in Next.js and Digital Creator. Building scalable web applications and sharing tech knowledge through YouTube and Instagram content.",
   summary:
-    "My tech journey started when I was just 4—yep, I had a computer at that age, which was a big deal in my hometown! Fast forward to 2020, the year of Corona, while I was prepping for pre-engineering exams, I stumbled upon Python, and the rest is history. Now, I'm pursuing a BS in Software Engineering at [COMSATS Islamabad](https://www.comsats.edu.pk/), crafting websites with ReactJS, and leveling up to Next.js as a full-stack dev. Oh, and did I mention I've started sharing my tech musings on Instagram? You can find me at [@hasaandotdev💻✨](https://www.instagram.com/hasaandotdev).",
-  avatarUrl: "/mine.png",
+    "Software Engineer with 2+ years of experience in full-stack web development and 10+ client projects delivered. Proficient in Next.js, React.js, and Node.js, with a strong focus on building scalable, user-focused applications. Experienced in leading small teams and effective communication. Currently pursuing BS in Software Engineering at COMSATS Islamabad while actively creating tech content on [YouTube](https://www.youtube.com/@hasaandotdev) and [Instagram](https://www.instagram.com/hasaandotdev). Passionate about clean code, performance, and collaborative problem-solving.",
+  avatarUrl: "/profile.jpg",
   skills: [
     "React",
-    "NextJS",
     "Next.js",
-    "Typescript",
+    "TypeScript",
     "Node.js",
     "Express",
     "MongoDB",
+    "PostgreSQL",
     "Python",
-    "Postgres",
     "Java",
     "C++",
+    "TailwindCSS",
+    "Firebase",
+    "NextAuth",
+    "Stripe",
+    "Docker",
+    "Git",
+    "AWS",
+    "REST APIs",
+    "CI/CD",
+    "SEO",
+    "MDX",
   ],
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
@@ -63,6 +73,12 @@ export const DATA = {
 
         navbar: true,
       },
+      Twitter: {
+        name: "Twitter",
+        url: "https://x.com/hasaandotdev",
+        icon: Icons.x,
+        navbar: true,
+      },
     },
   },
 
@@ -78,6 +94,18 @@ export const DATA = {
       end: " Ongoing",
       description:
         "As a full-stack web developer, I specialize in creating dynamic, responsive websites and applications using Next.js and Tailwind CSS, backed by robust databases like MongoDB and PostgreSQL. With experience on platforms like Upwork, I've successfully delivered high-quality solutions that meet clients' needs and exceed their expectations.",
+    },
+    {
+      company: "YouTube",
+      href: "https://www.youtube.com/@hasaandotdev",
+      badges: ["Content Creator"],
+      location: "Remote",
+      title: "Tech Content Creator",
+      logoUrl: "/yt-logo.webp",
+      start: "2024",
+      end: "Ongoing",
+      description:
+        "Creating educational content about Next.js and web development. Sharing tutorials, coding tips, and project walkthroughs to help developers learn and grow in their careers.",
     },
     {
       company: "Instagram",
@@ -116,10 +144,82 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Taskify Skiptrace",
-      href: "https://www.lutrainingpvt.com/",
-      dates: "Dec 2023 - Present",
+      title: "Nexus Core",
+      href: "#",
+      dates: "2024 - Present",
       active: true,
+      description:
+        "Enterprise-grade SaaS ERP platform integrating business operations, AI automation, and custom domain support. Streamlines workflows, inventory, payroll, and project management for service-based organizations.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "PostgreSQL",
+        "Docker",
+        "AWS",
+        "AI Integration",
+        "Custom DNS",
+      ],
+      links: [
+      
+      ],
+      image: "",
+      video: "./nexuscore.mp4",
+    },
+    {
+      title: "SBM Consultants",
+      href: "https://sb-mc.com",
+      dates: "Nov 2024 - Present",
+      active: true,
+      description:
+        "Professional business consultancy website with integrated SEO-friendly blog system using MDX. Designed to enhance online presence and client engagement through modern web technologies.",
+      technologies: [
+        "Next.js",
+        "TailwindCSS",
+        "TypeScript",
+        "MDX",
+        "SEO",
+        "Vercel",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://sb-mc.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "./sbmc.mp4",
+    },
+    {
+      title: "TaxSoft",
+      href: "https://taxsoft.pk",
+      dates: "Apr 2024 - Jul 2024",
+      active: true,
+      description:
+        "Comprehensive tax management platform featuring a responsive and user-friendly interface. Built with modern web technologies to ensure optimal performance across all devices.",
+      technologies: [
+        "Next.js",
+        "TailwindCSS",
+        "TypeScript",
+        "PostgreSQL",
+        "Vercel",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://taxsoft.pk",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "./taxsoft.mp4",
+    },
+    {
+      title: "Taskify Skiptrace",
+      href: "#",
+      dates: "Dec 2023 - Mar 2024",
+      active: false,
       description:
         "Leading Skip Tracing Solutions Catering to Real Estate Investors.",
       technologies: [
@@ -130,21 +230,15 @@ export const DATA = {
         "NextAuth",
         "Stripe",
       ],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.lutrainingpvt.com/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
+      links: [],
       image: "",
       video: "./Taskify.mp4",
     },
     {
       title: "LU Training",
-      href: "https://www.lutrainingpvt.com/",
-      dates: "Sep 2023 - Present",
-      active: true,
+      href: "#",
+      dates: "Sep 2023 - Dec 2023",
+      active: false,
       description:
         "An LMS for an academy that provides various courses like WordPress development and graphic designing. Build skills with our courses and mentors from world-class companies.",
       technologies: [
@@ -154,23 +248,16 @@ export const DATA = {
         "TypeScript",
         "NextAuth",
         "EmailJS",
-        ,
       ],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.lutrainingpvt.com/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
+      links: [],
       image: "",
       video: "./lutraining.mp4",
     },
     {
       title: "Realtime Object Identification",
       href: "https://real-time-object-identification.vercel.app/",
-      dates: "May 2024 - Present",
-      active: true,
+      dates: "May 2024 - Aug 2024",
+      active: false,
       description:
         "A semester project for a university course. A Next.js app that uses YOLO model and the live camera of the device to detect objects. It is a progressive web app.",
       technologies: [
@@ -199,7 +286,7 @@ export const DATA = {
     {
       title: "Abstract Systems",
       href: "https://abstract-systems-prod.vercel.app/",
-      dates: "Jul 2023 - Present",
+      dates: "Jul 2023 - Nov 2023",
       active: true,
       description:
         "A landing page for an agency that provides software solutions.",

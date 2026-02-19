@@ -93,23 +93,35 @@ export const DATA = {
   work: [
     {
       company: "DevoraOne",
-      href: "https://devoraone.com",
+      href: "https://devoraone.com/",
       badges: [],
       location: "Remote – International",
       title: "Software Engineer",
-      logoUrl: "/upwork.svg",
+      logoUrl: "/devora-one.png",
       start: "Jul 2025",
       end: "Present",
       description:
         "Lead development across multiple projects including ERP, logistics, and eCommerce systems. Architected scalable solutions, implemented CI/CD automation, and managed cloud infrastructure. Collaborated with global teams to deliver production-grade applications with modern DevOps workflows.",
     },
     {
+      company: "Nexus Core",
+      href: "https://nexus-core.online/",
+      badges: ["Founder"],
+      location: "Remote",
+      title: "Full Stack Engineer & Architect",
+      logoUrl: "/nexus-core-logo.png",
+      start: "2024",
+      end: "Present",
+      description:
+        "Architecting a SaaS-based, multi-tenant ERP with AI-driven automation, chatbots, and real-time analytics. Includes modular apps for HR, payroll, CRM, and inventory, with tenant-based routing and scalability. Tech: Next.js, PostgreSQL, Prisma, WebSockets, DNS-based multi-tenancy.",
+    },
+    {
       company: "Decimal Solutions",
-      href: "#",
+      href: "https://www.decimalsolution.com/",
       badges: [],
       location: "Islamabad, Pakistan",
       title: "Software Engineer",
-      logoUrl: "/upwork.svg",
+      logoUrl: "/decimal-solutions.png",
       start: "Jul 2025",
       end: "Sep 2025",
       description:
@@ -121,23 +133,11 @@ export const DATA = {
       badges: [],
       location: "Islamabad, Pakistan",
       title: "Full-Stack Engineer",
-      logoUrl: "/upwork.svg",
+      logoUrl: "/sbm-consultants.png",
       start: "Nov 2024",
       end: "Jun 2025",
       description:
         "Developed SBM's official website and a high-performance MDX-based blog using Next.js and TailwindCSS.",
-    },
-    {
-      company: "Nexus Core",
-      href: "https://nexus-core.online",
-      badges: ["Founder"],
-      location: "Remote",
-      title: "Full Stack Engineer & Architect",
-      logoUrl: "/upwork.svg",
-      start: "2024",
-      end: "Present",
-      description:
-        "Architecting a SaaS-based, multi-tenant ERP with AI-driven automation, chatbots, and real-time analytics. Includes modular apps for HR, payroll, CRM, and inventory, with tenant-based routing and scalability. Tech: Next.js, PostgreSQL, Prisma, WebSockets, DNS-based multi-tenancy.",
     },
     {
       company: "YouTube",

@@ -7,12 +7,13 @@ export const DATA = {
   url: "https://hasaanahmad.vercel.app",
   location: "ISLAMABAD, PAKISTAN",
   locationLink: "https://www.google.com/maps/place/Islamabad",
-  cvUrl: "https://drive.google.com/file/d/1MxxN3hsOIFLfqgiu6r-B6hHN5yhKosmi/view?usp=sharing",
+  cvUrl:
+    "https://drive.google.com/file/d/1MxxN3hsOIFLfqgiu6r-B6hHN5yhKosmi/view?usp=sharing",
   description:
     "Software Engineer specializing in ERPs, SaaS Apps, CRMs, and AI Chatbots. Founder of Nexus Core. Building scalable web applications and sharing tech knowledge—20k followers on Instagram, 1k subscribers on YouTube @hasaandotdev.",
   summary:
     "Software Engineer with 3+ years of experience building scalable SaaS platforms, ERP systems, and AI-powered web applications. Skilled in full-stack development, software architecture, and DevOps automation. Founder of **Nexus Core**—an AI-powered SaaS ERP. Experienced in designing intelligent systems and generative AI solutions for automation, chatbots, and agents. Working mainly on ERPs, SaaS Apps, CRMs, AI Chatbots, and workflows using Gemini, ChatGPT, Python, and RAG systems. Strong focus on performance, modularity, and cross-functional collaboration. Currently pursuing BS in Software Engineering at COMSATS Islamabad (GPA: 3.5/4.0) while creating tech content on [YouTube](https://www.youtube.com/@hasaandotdev) (1k subscribers) and [Instagram](https://www.instagram.com/hasaandotdev) (20k followers).",
-  avatarUrl: "/profile.jpg",
+  avatarUrl: "/me.jpg",
   skills: [
     "Next.js",
     "React",

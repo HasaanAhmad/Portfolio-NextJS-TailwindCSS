@@ -1,6 +1,5 @@
 import { Icons } from "@/components/icons";
-import { url } from "inspector";
-import { HomeIcon, Twitter } from "lucide-react";
+import { HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Hasaan Ahmad",
@@ -8,33 +7,35 @@ export const DATA = {
   url: "https://hasaanahmad.vercel.app",
   location: "ISLAMABAD, PAKISTAN",
   locationLink: "https://www.google.com/maps/place/Islamabad",
+  cvUrl: "https://drive.google.com/file/d/1MxxN3hsOIFLfqgiu6r-B6hHN5yhKosmi/view?usp=sharing",
   description:
-    "Full Stack Software Engineer specializing in Next.js and Digital Creator. Building scalable web applications and sharing tech knowledge through YouTube and Instagram content.",
+    "Software Engineer specializing in ERPs, SaaS Apps, CRMs, and AI Chatbots. Founder of Nexus Core. Building scalable web applications and sharing tech knowledge—20k followers on Instagram, 1k subscribers on YouTube @hasaandotdev.",
   summary:
-    "Software Engineer with 2+ years of experience in full-stack web development and 10+ client projects delivered. Proficient in Next.js, React.js, and Node.js, with a strong focus on building scalable, user-focused applications. Experienced in leading small teams and effective communication. Currently pursuing BS in Software Engineering at COMSATS Islamabad while actively creating tech content on [YouTube](https://www.youtube.com/@hasaandotdev) and [Instagram](https://www.instagram.com/hasaandotdev). Passionate about clean code, performance, and collaborative problem-solving.",
+    "Software Engineer with 3+ years of experience building scalable SaaS platforms, ERP systems, and AI-powered web applications. Skilled in full-stack development, software architecture, and DevOps automation. Founder of **Nexus Core**—an AI-powered SaaS ERP. Experienced in designing intelligent systems and generative AI solutions for automation, chatbots, and agents. Working mainly on ERPs, SaaS Apps, CRMs, AI Chatbots, and workflows using Gemini, ChatGPT, Python, and RAG systems. Strong focus on performance, modularity, and cross-functional collaboration. Currently pursuing BS in Software Engineering at COMSATS Islamabad (GPA: 3.5/4.0) while creating tech content on [YouTube](https://www.youtube.com/@hasaandotdev) (1k subscribers) and [Instagram](https://www.instagram.com/hasaandotdev) (20k followers).",
   avatarUrl: "/profile.jpg",
   skills: [
-    "React",
     "Next.js",
+    "React",
     "TypeScript",
-    "Node.js",
-    "Express",
-    "MongoDB",
-    "PostgreSQL",
     "Python",
-    "Java",
-    "C++",
+    "Node.js",
+    "PostgreSQL",
+    "Prisma",
     "TailwindCSS",
-    "Firebase",
-    "NextAuth",
-    "Stripe",
+    "LangChain",
+    "OpenAI",
+    "Gemini",
+    "ChatGPT",
+    "RAG Systems",
+    "AI Chatbots",
     "Docker",
-    "Git",
-    "AWS",
-    "REST APIs",
     "CI/CD",
-    "SEO",
-    "MDX",
+    "WebSockets",
+    "ShadCN",
+    "Zustand",
+    "Git",
+    "Vercel",
+    "Railway",
   ],
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
@@ -49,7 +50,7 @@ export const DATA = {
         navbar: true,
       },
       Instagram: {
-        name: "Instagram",
+        name: "Instagram (20k followers)",
         url: "https://instagram.com/hasaandotdev",
         icon: Icons.instagram,
       },
@@ -61,9 +62,15 @@ export const DATA = {
         navbar: true,
       },
       Youtube: {
-        name: "Youtube",
+        name: "YouTube (1k subscribers) @hasaandotdev",
         url: "https://youtube.com/@hasaandotdev",
         icon: Icons.youtube,
+        navbar: true,
+      },
+      CV: {
+        name: "Download CV",
+        url: "https://drive.google.com/file/d/1MxxN3hsOIFLfqgiu6r-B6hHN5yhKosmi/view?usp=sharing",
+        icon: Icons.fileText,
         navbar: true,
       },
       Email: {
@@ -84,59 +91,83 @@ export const DATA = {
 
   work: [
     {
-      company: "Upwork",
-      href: "https://www.upwork.com/freelancers/~0147607dcb1792d71a",
+      company: "DevoraOne",
+      href: "https://devoraone.com",
       badges: [],
-      location: "Remote",
-      title: "Freelancer Web Developer",
+      location: "Remote – International",
+      title: "Software Engineer",
       logoUrl: "/upwork.svg",
-      start: "2022",
-      end: " Ongoing",
+      start: "Jul 2025",
+      end: "Present",
       description:
-        "As a full-stack web developer, I specialize in creating dynamic, responsive websites and applications using Next.js and Tailwind CSS, backed by robust databases like MongoDB and PostgreSQL. With experience on platforms like Upwork, I've successfully delivered high-quality solutions that meet clients' needs and exceed their expectations.",
+        "Lead development across multiple projects including ERP, logistics, and eCommerce systems. Architected scalable solutions, implemented CI/CD automation, and managed cloud infrastructure. Collaborated with global teams to deliver production-grade applications with modern DevOps workflows.",
+    },
+    {
+      company: "Decimal Solutions",
+      href: "#",
+      badges: [],
+      location: "Islamabad, Pakistan",
+      title: "Software Engineer",
+      logoUrl: "/upwork.svg",
+      start: "Jul 2025",
+      end: "Sep 2025",
+      description:
+        "Enhanced existing web applications and enforced clean architecture and maintainable code practices.",
+    },
+    {
+      company: "SBM Consultants",
+      href: "https://sb-mc.com",
+      badges: [],
+      location: "Islamabad, Pakistan",
+      title: "Full-Stack Engineer",
+      logoUrl: "/upwork.svg",
+      start: "Nov 2024",
+      end: "Jun 2025",
+      description:
+        "Developed SBM's official website and a high-performance MDX-based blog using Next.js and TailwindCSS.",
+    },
+    {
+      company: "Nexus Core",
+      href: "https://nexus-core.online",
+      badges: ["Founder"],
+      location: "Remote",
+      title: "Full Stack Engineer & Architect",
+      logoUrl: "/upwork.svg",
+      start: "2024",
+      end: "Present",
+      description:
+        "Architecting a SaaS-based, multi-tenant ERP with AI-driven automation, chatbots, and real-time analytics. Includes modular apps for HR, payroll, CRM, and inventory, with tenant-based routing and scalability. Tech: Next.js, PostgreSQL, Prisma, WebSockets, DNS-based multi-tenancy.",
     },
     {
       company: "YouTube",
       href: "https://www.youtube.com/@hasaandotdev",
-      badges: ["Content Creator"],
+      badges: ["1k subscribers"],
       location: "Remote",
       title: "Tech Content Creator",
       logoUrl: "/yt-logo.webp",
       start: "2024",
       end: "Ongoing",
       description:
-        "Creating educational content about Next.js and web development. Sharing tutorials, coding tips, and project walkthroughs to help developers learn and grow in their careers.",
+        "Creating educational content about Next.js, web development, and AI. Sharing tutorials, coding tips, and project walkthroughs to help developers learn and grow.",
     },
     {
       company: "Instagram",
-      href: "https:www.instagram.com/hasaandotdev",
-      badges: [],
+      href: "https://www.instagram.com/hasaandotdev",
+      badges: ["20k followers"],
       location: "Remote",
       title: "Digital Creator",
       logoUrl: "Instagram.png",
       start: "Jul 2024",
-      end: " Ongoing",
+      end: "Ongoing",
       description:
-        "Creating tech reels and web development content on Instagram. Sharing insights, tutorials, and fun commentary that have attracted over 8k followers in just 20 days—and still growing!",
-    },
-    {
-      company: "GDSC CUI",
-      badges: ["CO LEAD"],
-      href: "",
-      location: "Remote",
-      title: "Web Developer",
-      logoUrl: "/gdsc.png",
-      start: "Sep 2023",
-      end: "Feb 2024",
-      description:
-        "As the Co-Lead of GDSC CUI, I played a key role in leading web development initiatives, mentoring students, and organizing events to foster a collaborative learning environment. My focus was on guiding the team in building impactful projects using the latest web technologies, helping our university community grow in technical expertise and innovation.",
+        "Creating tech reels and web development content on Instagram. Sharing insights, tutorials, and commentary with 20k+ followers.",
     },
   ],
   education: [
     {
-      school: "COMSATS Univeristy Islamabad",
+      school: "COMSATS University Islamabad, Pakistan",
       href: "https://www.comsats.edu.pk/",
-      degree: "Bachelors in Software Engineering",
+      degree: "Bachelor of Science in Software Engineering – GPA: 3.5/4.0",
       logoUrl: "/Comsats.jpg",
       start: "2022",
       end: "2026",
@@ -145,26 +176,29 @@ export const DATA = {
   projects: [
     {
       title: "Nexus Core",
-      href: "#",
+      href: "https://nexus-core.online",
       dates: "2024 - Present",
       active: true,
       description:
-        "Enterprise-grade SaaS ERP platform integrating business operations, AI automation, and custom domain support. Streamlines workflows, inventory, payroll, and project management for service-based organizations.",
+        "AI-powered SaaS ERP platform. Founder & Architect. Multi-tenant ERP with AI-driven automation, chatbots, and real-time analytics. Modular apps for HR, payroll, CRM, and inventory with tenant-based routing.",
       technologies: [
         "Next.js",
-        "TypeScript",
-        "TailwindCSS",
         "PostgreSQL",
-        "Docker",
-        "AWS",
-        "AI Integration",
+        "Prisma",
+        "WebSockets",
+        "AI Chatbots",
+        "Multi-tenancy",
         "Custom DNS",
       ],
       links: [
-      
+        {
+          type: "Website",
+          href: "https://nexus-core.online",
+          icon: <Icons.globe className="size-3" />,
+        },
       ],
-      image: "",
-      video: "./nexuscore.mp4",
+      image: "/nexus-core.png",
+      video: "",
     },
     {
       title: "SBM Consultants",
@@ -216,12 +250,12 @@ export const DATA = {
       video: "./taxsoft.mp4",
     },
     {
-      title: "Taskify Skiptrace",
+      title: "GoTaskify",
       href: "#",
-      dates: "Dec 2023 - Mar 2024",
+      dates: "Nov 2023 - Mar 2024",
       active: false,
       description:
-        "Leading Skip Tracing Solutions Catering to Real Estate Investors.",
+        "SaaS tool for skip tracing and lead management with Stripe-based subscriptions. Built for Carlos Pineda (CEO). Focused on UI speed, UX optimization, and maintainable architecture.",
       technologies: [
         "Next.js",
         "Firebase",

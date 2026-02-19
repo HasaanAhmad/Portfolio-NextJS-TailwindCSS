@@ -15,7 +15,7 @@ export default function Page() {
     <main className="flex flex-col min-h-[100dvh] space-y-10">
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
-          <div className="gap-2 flex justify-between">
+            <div className="gap-2 flex justify-between">
             <div className="flex-col flex flex-1 space-y-1.5">
               <BlurFadeText
                 delay={BLUR_FADE_DELAY}
@@ -28,6 +28,17 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
+              <BlurFade delay={BLUR_FADE_DELAY}>
+                <Link
+                  href={DATA.cvUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 rounded-lg bg-foreground text-background px-4 py-2 text-sm font-medium hover:opacity-90 transition-opacity"
+                >
+                  Download CV
+                  <span aria-hidden>↗</span>
+                </Link>
+              </BlurFade>
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
@@ -170,11 +181,20 @@ export default function Page() {
                   href={DATA.contact.social.Instagram.url}
                   className="text-blue-500 hover:underline"
                 >
-                  with a direct question on instagram
+                  with a direct question on Instagram
                 </Link>{" "}
                 and I&apos;ll respond whenever I can. I will ignore all
                 soliciting.
               </p>
+              <Link
+                href={DATA.cvUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-lg border border-foreground/20 px-4 py-2 text-sm font-medium hover:bg-foreground/5 transition-colors mt-4"
+              >
+                View / Download my CV
+                <span aria-hidden>↗</span>
+              </Link>
             </div>
           </BlurFade>
         </div>

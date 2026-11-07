@@ -10,46 +10,48 @@ export const DATA = {
   cvUrl:
     "https://drive.google.com/file/d/1MxxN3hsOIFLfqgiu6r-B6hHN5yhKosmi/view?usp=sharing",
   description:
-    "Software Engineer specializing in ERPs, SaaS Apps, CRMs, and AI Chatbots. Founder of Nexus Core. Building scalable web applications and sharing tech knowledge—20k followers on Instagram, 1k subscribers on YouTube @hasaandotdev.",
+    "AI Engineer & Full-Stack Developer building AI Agents, RAG systems, and LLM workflows for ERPs, CRMs, and SaaS. Founder of Nexus Core. 20k Instagram · 1k YouTube @hasaandotdev.",
   summary:
-    "Software Engineer with 3+ years of experience building scalable SaaS platforms, ERP systems, and AI-powered web applications. Skilled in full-stack development, software architecture, and DevOps automation. Founder of **Nexus Core**—an AI-powered SaaS ERP. Experienced in designing intelligent systems and generative AI solutions for automation, chatbots, and agents. Working mainly on ERPs, SaaS Apps, CRMs, AI Chatbots, and workflows using Gemini, ChatGPT, Python, and RAG systems. Strong focus on performance, modularity, and cross-functional collaboration. Currently pursuing BS in Software Engineering at COMSATS Islamabad (GPA: 3.5/4.0) while creating tech content on [YouTube](https://www.youtube.com/@hasaandotdev) (1k subscribers) and [Instagram](https://www.instagram.com/hasaandotdev) (20k followers).",
+    "AI Engineer and Full-Stack Software Engineer with **3+ years** of experience shipping production SaaS, ERP platforms, and agentic AI systems. Founder of **Nexus Core**—an AI-powered multi-tenant ERP with copilots, tool-calling agents, and RAG over business data. Specialized in **AI Agents**, **multi-agent workflows**, **RAG pipelines**, chatbots, and LLM orchestration using **Gemini**, **ChatGPT/OpenAI**, **LangChain**, and **Python**. Led delivery of high-scale commerce and workshop platforms handling **3,000+ orders/month**, while mentoring teams and shipping CI/CD-backed infrastructure. Strong focus on clean architecture, performance, and cross-functional collaboration. BS Software Engineering at COMSATS Islamabad (GPA: **3.5/4.0**). Building in public on [YouTube](https://www.youtube.com/@hasaandotdev) (**1k** subscribers) and [Instagram](https://www.instagram.com/hasaandotdev) (**20k** followers).",
   avatarUrl: "/me.jpg",
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "Python",
-    "Java",
-    "SQL",
-    "Next.js",
-    "React",
-    "React Native",
-    "Node.js",
-    "Express.js",
-    "TailwindCSS",
-    "Prisma",
-    "Drizzle",
-    "ShadCN",
-    "Zustand",
-    "PostgreSQL",
-    "MongoDB",
-    "Mongoose",
+    "AI Agents",
+    "Multi-Agent Systems",
+    "RAG Systems",
     "LangChain",
+    "LLM Orchestration",
+    "Tool Calling",
+    "Prompt Engineering",
+    "Vector Embeddings",
     "OpenAI",
     "Gemini",
     "ChatGPT",
-    "RAG Systems",
-    "AI Chatbots",
-    "AI Agents",
+    "Python",
+    "TypeScript",
+    "JavaScript",
+    "Next.js",
+    "React",
+    "Node.js",
+    "Express.js",
+    "PostgreSQL",
+    "Prisma",
+    "MongoDB",
     "Workflow Automation",
+    "AI Chatbots",
+    "Semantic Search",
+    "Function Calling",
+    "React Native",
+    "TailwindCSS",
+    "ShadCN",
+    "Zustand",
+    "Drizzle",
+    "WebSockets",
     "Docker",
-    "Nginx",
     "CI/CD",
     "GitHub Actions",
-    "WebSockets",
+    "Nginx",
     "Auth.js",
     "REST APIs",
-    "Expo",
-    "Git",
     "Vercel",
     "Railway",
     "VPS Management",
@@ -117,19 +119,19 @@ export const DATA = {
       start: "Jul 2025",
       end: "Present",
       description:
-        "Lead development across multiple projects including ERP, logistics, and eCommerce systems. Architected scalable solutions, implemented CI/CD automation, and managed cloud infrastructure. Collaborated with global teams to deliver production-grade applications with modern DevOps workflows.",
+        "Team Lead shipping 3+ production platforms spanning ERP, logistics, and eCommerce (incl. StarParts at 3,000+ orders/month). Own architecture, AI agent workflows, CI/CD pipelines, and cloud ops. Mentor engineers and ship with global stakeholders on modern DevOps stacks.",
     },
     {
       company: "Nexus Core",
       href: "https://www.youtube.com/watch?v=0V-LZWPnlaY",
       badges: ["Founder"],
       location: "Remote",
-      title: "Full Stack Engineer & Architect",
+      title: "AI Engineer & Full Stack Architect",
       logoUrl: "/nexus-core-logo.png",
       start: "2024",
       end: "Aug 2026",
       description:
-        "Architecting a SaaS-based, multi-tenant ERP with AI-driven automation, chatbots, and real-time analytics. Includes modular apps for HR, payroll, CRM, and inventory, with tenant-based routing and scalability. Tech: Next.js, PostgreSQL, Prisma, WebSockets, DNS-based multi-tenancy.",
+        "Founded and architected a multi-tenant AI SaaS ERP with 4+ modular apps (HR, payroll, CRM, inventory). Built AI Agents, RAG copilots, and tool-calling chatbots for ops automation and real-time analytics. Stack: Next.js, PostgreSQL, Prisma, WebSockets, DNS multi-tenancy, OpenAI/Gemini.",
     },
     {
       company: "Decimal Solutions",
@@ -141,7 +143,7 @@ export const DATA = {
       start: "Jul 2025",
       end: "Sep 2025",
       description:
-        "Enhanced existing web applications and enforced clean architecture and maintainable code practices.",
+        "Hardened 2+ production web apps with clean architecture, modular boundaries, and maintainable TypeScript patterns—cutting tech debt and improving delivery velocity for the engineering team.",
     },
     {
       company: "SBM Consultants",
@@ -153,7 +155,7 @@ export const DATA = {
       start: "Nov 2024",
       end: "Jun 2025",
       description:
-        "Developed SBM's official website and a high-performance MDX-based blog using Next.js and TailwindCSS.",
+        "Shipped SBM's official site + MDX blog in Next.js/Tailwind with SEO-first content architecture—improving discoverability and cutting page loads for a consultancy audience.",
     },
     {
       company: "YouTube",
@@ -165,7 +167,7 @@ export const DATA = {
       start: "2024",
       end: "Ongoing",
       description:
-        "Creating educational content about Next.js, web development, and AI. Sharing tutorials, coding tips, and project walkthroughs to help developers learn and grow.",
+        "1k+ subscribers. Content on Next.js, AI Agents, RAG, and full-stack engineering—tutorials and project walkthroughs for developers building LLM-powered apps.",
     },
     {
       company: "Instagram",
@@ -177,7 +179,7 @@ export const DATA = {
       start: "Jul 2024",
       end: "Ongoing",
       description:
-        "Creating tech reels and web development content on Instagram. Sharing insights, tutorials, and commentary with 20k+ followers.",
+        "20k+ followers. Short-form tech content on AI engineering, agents, and web development—reaching a growing developer audience with practical build tips.",
     },
   ],
   education: [
@@ -197,15 +199,16 @@ export const DATA = {
       dates: "2025 - Present",
       active: true,
       description:
-        "European OEM & aftermarket auto-parts marketplace for B2B and B2C. Built dual admin panels, multi-currency checkout, supplier integrations, and BNPL support—handling 3,000+ orders per month from launch across the EU.",
+        "EU auto-parts marketplace (B2B + B2C) processing **3,000+ orders/month** from day one. Dual admin panels, multi-currency checkout, supplier feeds, BNPL, and workflow automation for catalog ops and fulfillment—built for launch-scale traffic across Europe.",
       technologies: [
         "Next.js",
         "TypeScript",
         "PostgreSQL",
         "Stripe",
         "BNPL",
-        "Multi-currency",
+        "Workflow Automation",
         "Role-based Admin",
+        "Multi-currency",
       ],
       links: [
         {
@@ -223,14 +226,15 @@ export const DATA = {
       dates: "2025 - Present",
       active: true,
       description:
-        "Multilingual workshop management SaaS for European auto garages. Unifies customers, vehicles, estimates, work orders, mechanic schedules, invoices, spare parts, and tire storage in one platform connecting office, workshop floor, and clients.",
+        "Workshop management SaaS for EU garages—customers, vehicles, estimates, work orders, schedules, invoices, parts, and tire storage in one system. Automation-ready workflows connecting office, floor, and clients with multilingual UX.",
       technologies: [
         "Next.js",
         "TypeScript",
-        "TailwindCSS",
         "PostgreSQL",
         "SaaS",
+        "Workflow Automation",
         "Multi-language",
+        "TailwindCSS",
       ],
       links: [
         {
@@ -248,15 +252,19 @@ export const DATA = {
       dates: "2024 - Aug 2026",
       active: true,
       description:
-        "AI-powered SaaS ERP platform. Founder & Architect. Multi-tenant ERP with AI-driven automation, chatbots, and real-time analytics. Modular apps for HR, payroll, CRM, and inventory with tenant-based routing.",
+        "Founder-built AI SaaS ERP with **AI Agents**, **RAG copilots**, and tool-calling chatbots over HR, payroll, CRM, and inventory. Multi-tenant routing, DNS white-labeling, and real-time analytics—designed so teams query and act on business data in natural language.",
       technologies: [
+        "AI Agents",
+        "RAG",
+        "LangChain",
+        "OpenAI",
+        "Gemini",
+        "Tool Calling",
         "Next.js",
         "PostgreSQL",
         "Prisma",
         "WebSockets",
-        "AI Chatbots",
         "Multi-tenancy",
-        "Custom DNS",
       ],
       links: [
         {
@@ -274,7 +282,7 @@ export const DATA = {
       dates: "Nov 2024 - Jun 2025",
       active: true,
       description:
-        "Professional business consultancy website with integrated SEO-friendly blog system using MDX. Designed to enhance online presence and client engagement through modern web technologies.",
+        "Consultancy site + MDX blog engineered for SEO and content velocity. Modern Next.js stack with fast loads and a maintainable content pipeline for client acquisition.",
       technologies: [
         "Next.js",
         "TailwindCSS",
@@ -299,12 +307,12 @@ export const DATA = {
       dates: "Apr 2024 - Jul 2024",
       active: true,
       description:
-        "Comprehensive tax management platform featuring a responsive and user-friendly interface. Built with modern web technologies to ensure optimal performance across all devices.",
+        "Tax management platform for data entry and reporting workflows. Responsive Next.js UI on PostgreSQL—built for accuracy, speed, and multi-device use.",
       technologies: [
         "Next.js",
-        "TailwindCSS",
         "TypeScript",
         "PostgreSQL",
+        "TailwindCSS",
         "Vercel",
       ],
       links: [
@@ -323,14 +331,14 @@ export const DATA = {
       dates: "Nov 2023 - Mar 2024",
       active: false,
       description:
-        "SaaS tool for skip tracing and lead management with Stripe-based subscriptions. Built for Carlos Pineda (CEO). Focused on UI speed, UX optimization, and maintainable architecture.",
+        "SaaS skip-tracing & lead management with Stripe subscriptions. Optimized for fast UI, clean UX, and maintainable full-stack architecture for a US client.",
       technologies: [
         "Next.js",
         "Firebase",
-        "TailwindCSS",
         "TypeScript",
         "NextAuth",
         "Stripe",
+        "TailwindCSS",
       ],
       links: [],
       image: "",
